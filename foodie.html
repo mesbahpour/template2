@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Foodie</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+   <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+ 
+
+  <script type="text/javascript" src="js/script.js"></script>
+  <style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto"}
+</style>
+<body>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<div class="chat"  data-toggle="modal" data-target="#myModal"><i class="fa fa-comment-o text-center ml-2 mt-2 text-white"  style="font-size:  30px;"></i></div>
+<div id="vertical-nav" class="vertical-nav" style=" ">
+<ul class="vertical-top-level">
+<li>
+<a href="" class="border"><i class="fa fa-check-square righticon"></i></a>
+  <ul class="vertical-sub-level">
+    <li><a href="#">Showcase</a></li>
+    
+   </ul>
+</li>
+<li>
+<a href="" class="border"><i class="fa fa-shopping-bag  righticon "></i></a>
+
+  <ul class="vertical-sub-level">
+    <li><a href="#">Purchase Jevelin</a></li>
+    
+   </ul>
+</li>
+<li>
+<a href="" class="border"><i class="fa fa-align-center  righticon"></i></a>
+  <ul class="vertical-sub-level">
+    <li><a href="#">Questions/Answers</a></li>
+    
+   </ul>
+</li>
+<li>
+<a href="" class="border"><i class="fa fa-envelope-o  righticon"></i></a>
+  <ul class="vertical-sub-level">
+    <li><a href="#">Ask Question</a></li>
+    
+   </ul>
+</li>
+</ul>
+</div>
+
+	
+
+
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container">
+	        <a class="navbar-brand text-white lrg-logo" href="#"><!-- <img src="images/logo.png" alt="" width="100"> --> </a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"><i class="fa fa-bars text-white pt-1"></i></span>
+	        </button>
+	        <div id="navbarNavDropdown" class="navbar-collapse collapse ">
+	            <ul class="navbar-nav ml-auto " >
+	                <li class="nav-item mr-4">
+	                    <a class="nav-link" href="#Team">Home</a>
+	                </li>
+	                <li class="nav-item ">
+	                    <a class="nav-link mr-4  " href="#Work">About us</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link  mr-4 " href="#Price">Menu</a>
+	                </li>
+	                <li class="nav-item ">
+	                    <a class="nav-link  mr-4" href="#Contact">Reservation</a>
+	                </li>
+	                 <li class="nav-item">
+	                    <a class="nav-link  mr-4 " href="#Contact">Contacts</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link " href="#Contact"><i class="fa fa-search"></i></a>
+	                </li>
+	                <li class="nav-item ">
+	                    <a class="nav-link " href="#Contact"><i class="fa fa-twitter"></i></a>
+	                </li>
+	                <li class="nav-item ">
+	                    <a class="nav-link " href="#Contact"><i class="fa fa-facebook"></i></a>
+	                </li>
+	                <li class="nav-item ">
+	                    <a class="nav-link " href="#Contact"><i class="fa fa-instagram"></i></a>
+	                </li>
+	               
+
+	                <ul class="navbar-nav">
+	                </ul>
+	            </ul>
+ 	        </div>
+ 	    </div>
+    	</nav>
+  </header>
+	<!-- =============	End Navigation ============== -->
+
+	<!-- =============	Slider Slider ============== -->
+<div class="slider">
+      <div class="sliderbackground m-5">
+      	<br><br>	<br><br>	<br><br>
+     
+      	<h6 class="Premium text-center pt-4">Premium </h6>
+      	<h6 class="text-white text-center" style="color: lightgray ;font-size:10px">QUALITY </h6>
+      	<h1 class="text-white text-center font-weight-bold h1" style="font-family: Cormorant Garamond;"><i>Restaurant</i> </h1>
+      	<h1 class="text-white text-center dishes font-weight-bold  h1" style="font-family: Cormorant Garamond;"><i>&Dishes</i> </h1>
+   
+      </div>
+</div>
+<br><br>
+<!-- =============	START OFFER	 ============== -->
+<h1 class=" font-weight-bold text-center">What We Can Offer </h1>
+	<p class="text-center text-muted" style="font-size: 13px">from our hearts</p>
+<div class="offer">
+	<div class="container" >
+	
+	<div class="row">
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3"   > 
+		   <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture3.png" style="width: 100%;">
+			<h4 class="text-center"><i><b>Always</b> Fresh</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		</div>
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3"   >
+			<img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture2.png" style="width: 100%">
+			<h4 class="text-center"><i><b>Eco </b>Products</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		
+        </div>
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3"  >
+			<img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture1.png" style="width: 100%">
+			<h4 class="text-center"><i><b>Healthy</b>Deserts</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid mt-5" >
+	<div class="row">
+		<div class="col-lg-6  col-md-6 col-sm-12 " >
+			<img src="http://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-96398.jpg"  class="shadow rounded w-100 tart">
+		</div>
+			<div class="col-lg-6 col-md-6 col-sm-12  " >
+				<h1 class="text-center " style="color:lightgray; font-size: 300px;margin-top: -160px">w</h1>
+				<h4 class="text-center" style="margin-top: -160px" >Welcome to Jevelin <p>Restaurant</p></h4>
+
+				<p class="mt-5 p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas nemo eum aspernatur officiis inventore fuga maxime consequuntur repellat. Quasi accusamus vel incidunt quas, recusandae quia culpa voluptatibus. Beatae, consequuntur!</p>
+				<p class="text-muted p-5" >ABOUT US</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid mt-3">
+	<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 " >
+				<h1 class="text-center " style="color:lightgray; font-size: 300px;">&</h1>
+				<h4 class="text-center" style="margin-top: -160px" >Welcome to Jevelin <p>Restaurant</p></h4>
+
+				<p class="mt-5 p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas nemo eum aspernatur officiis inventore fuga maxime consequuntur repellat. Quasi accusamus vel incidunt quas, recusandae quia culpa voluptatibus. Beatae, consequuntur!</p>
+				<p class="text-muted p-5" >ABOUT US</p>
+			</div>
+				<div class="col-lg-6  col-md-6 col-sm-12 "  >
+			<img src="http://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/monika-grabkowska-323579.jpg"  class="shadow rounded w-100 tart">
+		</div>
+		</div>
+	</div>
+
+<!-- =============	START OFFER	 ============== -->
+<h1 class=" font-weight-bold text-center">What We Can Offer </h1>
+	<p class="text-center text-muted" style="font-size: 13px">from our hearts</p>
+<div class="offer">
+	<div class="container" >
+	
+	<div class="row">
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3   "   > 
+		   <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture3.png" style="width: 100%;" class="rolllln">
+			<h4 class="text-center"><i><b>Always</b> Fresh</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		</div>
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3"   >
+			<img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture2.png" style="width: 100%">
+			<h4 class="text-center"><i><b>Eco </b>Products</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		
+        </div>
+		<div class="col-lg-4  col-md-4 col-sm-4 mt-3"  >
+			<img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/picture1.png" style="width: 100%">
+			<h4 class="text-center"><i><b>Healthy</b>Deserts</i></h4>
+			<p class="text-center">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</p>
+		  </div>
+</div>
+</div>
+</div>
+<!-- 
+<div class="container-fluid mt-5" >
+	<div class="row">
+		<div class="col-lg-6  col-md-6 col-sm-12 col-xs-12" >
+			<img src="images/1.jpg"  class="shadow rounded w-100 tart">
+		</div>
+			<div class="col-lg-6 col-md-6 col-sm-12  bg-white" >
+				<h1 class="text-center " style="font-size: 380px;  color:rgb(249,249,249);">w</h1>
+				<h4 class="ml-5 text-secondary font-weight-normal" style="font-size: 30px; margin-top: -180px;">Welcome to Jevelin <p>Restaurant</p></h4>
+				<p class="ml-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices. Pellentesque bibendum condimentum neque, nec iaculis augue ultrices ac. Fusce interdum viverra aliquet.</p>
+				<p class="ml-5 pt-3 text-dark font-weight-bold">ABOUT US</p>
+
+				
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container mt-3">
+	<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+					<h1 class="text-center " style="font-size: 380px; color:rgb(249,249,249);">&</h1>
+				<h4 class="ml-5 text-secondary font-weight-normal" style="font-size: 30px; margin-top: -180px;">Chef & Owner Kate Fuson  <p>and Her Husband Jack</p></h4>
+				<p class="ml-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices. Pellentesque bibendum condimentum neque, nec iaculis augue ultrices ac. Fusce interdum viverra aliquet.</p>
+				<p class="ml-5 pt-3 text-dark font-weight-bold">READ MORE</p>
+
+			</div>
+				<div class="col-lg-6  col-md-6 col-sm-12 "  >
+			<img src="images/2.jpg"  class="shadow rounded w-100 tart">
+		</div>
+		</div>
+	</div>
+ -->
+
+     	<br><br>
+    <div class="mt-5" style="background-color: rgb(249,249,249);">
+    	
+	  <div class="container pt-5 pb-5">
+	     <h1 class=" font-weight-bold text-center">Our Team </h1>
+	     <p class="text-center text-muted" style="font-size: 13px">is the best</p>
+    	
+    	<div class="row">
+    	   <div class="col-sx-6 col-md-6 col-lg-3 col-sm-6 mt-3" >
+    		  <div class="">
+    			<img src="images/01.png" style="width: 100%; height: 400px;" class="rounded ">	
+    	         	<p class="mt-2  " >
+    	         	<h6 class=" text-center p-2" >Carol William</h6>
+    	         	<h4 class="text-muted text-center p-2">MANAGER</h4>
+				      <p class=" text-center p-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices.</p>
+				  </p>
+				      
+				   </div>
+				</div>
+				<div class="col-sx-6 col-md-6 col-lg-3 col-sm-6 mt-3" >
+    		  <div class=" ">
+    			<img src="images/04.png" style="width: 100%;height: 400px;" class="rounded ">	
+    	         	<p class="mt-2  " >
+    	         	<h6 class=" text-center p-2" >Carol William</h6>
+    	         	<h4 class="text-muted text-center p-2">MANAGER</h4>
+				      <p class=" text-center p-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices.</p>
+				  </p>
+				   </div>
+				</div>
+				<div class="col-sx-6 col-md-6 col-lg-3 col-sm-6 mt-3" >
+    		  <div class=" ">
+    			<img src="images/02.png" style="width: 100%;height: 400px;" class="rounded ">	
+    	         	<p class="mt-2  " >
+    	         	<h6 class=" text-center p-2" >Carol William</h6>
+    	         	<h4 class="text-muted text-center p-2">MANAGER</h4>
+				      <p class=" text-center p-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices.</p>
+				  </p>
+				   </div>
+				</div>
+				<div class="col-sx-6 col-md-6 col-lg-3 col-sm-6 mt-3" >
+    		  <div class=" ">
+    			<img src="images/03.png" style="width: 100%; height:400px ;" class="rounded ">	
+    	         	<p class="mt-2  " >
+    	         	<h6 class=" text-center p-2" >Carol William</h6>
+    	         	<h4 class="text-muted text-center p-2">MANAGER</h4>
+				      <p class=" text-center p-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices.</p>
+				  </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <div class="bg">
+ 	
+			 <div class="container  bg-white shadow mb-5 "  style="margin-top: -300px;">
+			   <div class="pt-5"  ><div class="text-center pt-5" ><img  class=""  	src="images/Layer.png"></div></div>
+				   <h1 class=" font-weight-bold text-center pt-5">Enjoy The Best Cuisine </h1>
+	                  <p class="text-center text-muted" style="font-size: 13px">on this planet</p>
+				     	<div class="container">
+		 		  	    	<div class="row">
+						    	<div class=" col-md-12 col-lg-6 col-sm-12 " >
+						    		<h3 style="color: #ff7417;">Mains</h3>
+						    		 <div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+
+
+
+
+									  </div>
+									  <div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+									    
+									  </div>
+									  <div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+
+
+									    
+									  </div>
+		 
+						    	 </div>
+						    	<div class=" col-md-12 col-lg-6 col-sm-12" > <h3 style="color: #ff7417;">Starters</h3>
+						    		<div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+
+
+									    
+									  </div>
+
+                                   <div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+
+
+									    
+									  </div>
+
+                                   <div class="d-flex justify-content-between  mb-3">
+									    <div class="">
+									    	<h6 class="pt-3">Proin gravida gravida</h6>
+									    	<p style="font-size: 13px; border-top:1px dashed lightgray" class="pt-2">Lorem ipsum dolor sit amet purus vitae libero lacinia accumsan vitae, dapibus et.</p>
+
+									    </div>
+									
+									    <div class=" pt-3" >$10.50</div>
+									    
+									  </div>
+                                      
+                                      <button class=" menu-btn p-3 pr-5 pl-5">VIEW FULL MENU</button>
+
+
+						    	</div>
+						</div>
+					</div>
+					 <br> <br></div>
+			
+ </div>                    
+
+        
+  
+  <div class="" style="margin-top: -200px;overflow: 	hidden;	">
+  	<br>	<br>	<br>
+	  <div class="container pt-5 pb-5">
+	     <h1 class=" font-weight-bold text-center">Customer </h1>
+	     <p class="text-center text-muted" style="font-size: 13px">stories about us</p>
+	     <div id="demo" class="carousel slide" data-ride="carousel">
+          
+
+     <div class="d-flex justify-content-center mt-5 mb-3 text-center">
+    <div class="p-2">
+    	 <a class="" href="#demo" data-slide="next">
+   <i class="fa fa-chevron-left " style="font-size: 70px ;color: lightgray"></i>
+  </a>
+    </div>
+    <div class="p-2 text-center" >
+    	  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/profile1.png">
+      <div class="carousel-caption">
+        
+      </div>   
+      <p class="mt-5"> 
+			 Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin quam, non aliquam ex neque eu lectus.						</p>
+       <h5>	Katey Gallardo</h5>
+       <h5 class="text-muted" style="color: lightgray">Proud client / CEO</h5>
+       <h2>99</h2>
+    </div>
+    <div class="carousel-item text-center">
+      <img src="images/profile2.png" >
+      <div class="carousel-caption">
+     
+      </div>  
+         <p class="mt-5">
+			 Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin quam, non aliquam ex neque eu lectus.						</p>
+       <h5>	Katey Gallardo</h5>
+       <h5 class="" style="color: lightgray">Proud client / CEO</h5>
+       <h2>99</h2>
+    </div>
+    
+  </div>
+    </div>
+    <div class="p-2 ">
+    	<a class="" href="#demo" data-slide="prev">
+  
+     <i class="fa fa-chevron-right" style="font-size: 70px; color: lightgray"></i>
+  </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="bookbg">
+	<div class="bg-white m-5 rounded" >
+		<h1 class=" font-weight-bold text-center pt-5">Select a Date & Book Now </h1>
+	     <p class="text-center text-muted " style="font-size: 13px">We will confirm order via E-mail or Phone
+</p>
+<br>
+		<div class="container" >
+			<div class="row">
+
+			<div class=" col-md-12 col-lg-6 col-sm-12" >
+			<div >
+					<label class="text-muted">First Name</label>
+					<div>
+						<input type="text" name="" class="form-control" >
+					</div>
+				</div>
+				<div>
+					<label class="text-muted mt-4">E-mail Address</label>
+					<div>
+						<input type="email" name="" class="form-control" >
+					</div>
+				</div>
+				
+			</div>
+			<div class=" col-md-12 col-lg-6 col-sm-12" >
+						<label class="text-muted">Last Name</label>
+					<div>
+						<input type="text" name="" class="form-control" >
+					</div>
+				
+				<div>
+					<label class="text-muted mt-4">Phone Number</label>
+					<div>
+						<input type="text" name="" class="form-control" >
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<div class="container">
+			<div class="row">
+
+			<div class=" col-md-12 col-lg-4 col-sm-12 mt-3  " >
+				
+				<input type="date" name="" class=" form-control time">
+			</div>
+			<div class=" col-md-12 col-lg-4 col-sm-12 mt-3" >
+				<div>
+					
+					<div>
+					<select  class="form-control time" > <!--Supplement an id here instead of using 'text'-->
+						  <option value="1" selected type	>times</option>
+						  <option value="1">9</option>  
+						  <option value="2" >9:30</option>
+						  <option value="3">10</option>
+						  <option value="4">10:30</option>
+						  <option value="5">11</option>
+						  <option value="6">11:30</option>
+						  <option value="7">12</option>
+						  <option value="8">12:30</option>
+						  <option value="9">13</option>
+						  <option value="10">13:30</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class=" col-md-12 col-lg-4 col-sm-12 mt-3" >
+				<div>
+					
+					<div>
+						<select name="text" class="form-control time" > <!--Supplement an id here instead of using 'text'-->
+						  <option value="1">1 person</option> 
+						  <option value="2" >2 persons</option>
+						  <option value="3">3 persons</option>
+						  <option value="4">4 persons</option>
+						  <option value="5">5 persons</option>
+						  <option value="6">6 persons</option>
+						  <option value="7">7 persons</option>
+						  <option value="8">8 persons</option>
+						  <option value="9">9 persons</option>
+						  <option value="10">10 persons</option>
+						</select>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="text-center mt-2 "><button class="m-5 btn"  style="background-color: white"><span class="text-muted font-weight-bold" style="font-size: 13px">BOOK KNOW</span></button></div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row ">
+    	   <div class="col-sx-6 col-md-6 col-lg-6 col-sm-12 p-5"  style="background-color: #FFF">
+    	   	<h1 class="text-center font-weight-normal p-5" >How to Find <br>& Contact Us</h1>
+    	   	<div class="p-5">
+
+				  <div class="container m-5">
+				  	
+				  		<div class="m-2">
+				  			<span class="font-weight-bold ">Monday - Thursday</span>
+				  			<span class="float-right text-muted">10:00 - 22:00</span>	
+				  		</div>
+				  		<div class="m-2">
+				  			<span class=" font-weight-bold ">Friday - Saturday</span>
+				  			<span class="float-right text-muted">11:00 - 21:00</span>	
+				  		</div>
+				  		<div class="m-2">
+				  			<span class=" font-weight-bold">Sunday</span>
+				  			<span class=" float-right text-muted">Closed</span>	
+				  		</div>
+				  	</div>
+				  </div>
+
+				  
+            <div class="P-5 text-center">
+            	  <h5>	Postal Address:</h5>
+
+					<span class="text-muted">Mánatún 35 105 Reykjavík</span>
+
+					<h5 class="pt-4">Restaurant:</h5>
+
+					<span class="text-muted">Grafarvogur 69, ON K2P 0G1, Reykjavík</span>
+
+					<h5 class="pt-4">Business Phone:</h5>
+
+					<span class="text-muted">+1 844 295 0715</span>
+            </div>
+    	   </div>
+    	   <div class="col-sx-6 col-md-6 col-lg-6 col-sm-12 " id="googleMap" >
+    	   
+			<script>
+			function myMap() {
+			var mapProp= {
+			    center:new google.maps.LatLng(51.508742,-0.120850),
+			    zoom:5,
+			};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			</script>
+			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> 
+    	   </div>
+    	</div>
+    </div>
+
+
+
+
+ <footer>
+	    	<div class="container-fluid p-5" style="background-color: rgba(57,57,57)">
+    		<div class="row  ">
+    			<div class="col-sx-12 col-md-4 col-lg-4 col-sm-12 p-5 " >
+                   <img src="images/logo.png" alt="">
+    			 </div>
+    			<div class="col-sx-12 col-md-4 col-lg-4 col-sm-12 text-muted p-5"  >
+                   WordPress Theme built by <b class="text-white">	Shufflehound.</b>
+    			 </div>
+    			<div class="col-sx-12 col-md-4 col-lg-4 col-sm-12 p-5 "> 
+                 <i class="float-right text-white	fa fa-instagram hover ml-2"></i>
+                   <i class="float-right text-white	fa fa-facebook hover mr-5"></i>        
+                        <i class="float-right	text-white fa fa-twitter hover mr-5"></i>
+    			</div>
+</div>
+</div>
+</footer>
+
+
+	<div class="gotoTop shadow">
+		<i class="fa fa-chevron-up"></i>
+	</div>
+
+<body>
+</body>
+</html>
